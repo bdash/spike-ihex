@@ -1,0 +1,10 @@
+[package]
+name = "spike-ihex"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+thiserror = "2.0"
+aes = "0.8"
+cbc = "0.1"
+clap = { version = "4", features = ["derive"] }
